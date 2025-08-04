@@ -9,7 +9,7 @@ body{
     width:40px;
 }
 
-p{
+.txt{
     font-size: 1.2em;
     line-height: 1.5;
     font-family: 'Nunito Sans', Inter, sans-serif;
@@ -29,4 +29,9 @@ h1{
 
 h2{
     font-size: 1.4em;
+}
+
+img{
+    border: 3px solid rgb(63, 66, 83);
+    border-radius: 2px;
 }
