@@ -1,13 +1,20 @@
 body{
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(31, 28, 28);
     color:aliceblue;
     margin-left:8%;
     margin-right:8%;
-
+    scroll-behavior: smooth;
 }
 
 #msmp img{
-    width:40px;
+    width:30px;
+}
+#msmp img:hover{
+    background-color: rgb(63, 66, 83);}
+#msmp{
+    display:flex;
+    gap: 15px;
+    width: 30%;
 }
 
 .txt{
@@ -38,7 +45,7 @@ h2{
 }
 
 #p1:hover, #p2:hover, #p3:hover, #p4:hover, #e1:hover, #e2:hover{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(37, 34, 34);
 }
 
 #p1, #p2, #p3, #p4, #e1, #e2{
@@ -47,3 +54,5 @@ h2{
     transition: background-color 0.3s ease;
     margin-bottom: 1vh;
 }
+
+
